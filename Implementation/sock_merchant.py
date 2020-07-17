@@ -9,4 +9,4 @@ for i in c:
     else:
         socks[i] = 1
 
-print sum([s/2 for s in socks.values()])
+print sum([s//2 for s in socks.values()])
